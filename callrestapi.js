@@ -7,7 +7,7 @@ function postCars() {
     var myMatricula = $('#matricula').val();
     var myModelo = $('#modelo').val();
     var myMarca = $('#marca').val();
-    var myAño = $('#año').val();
+    var myAnio = $('#anio').val();
     var myColor = $('#color').val();
     var myCilindros = $('#cilindros').val();
 
@@ -15,7 +15,7 @@ function postCars() {
         matricula: myMatricula,
         modelo: myModelo,
         marca: myMarca,
-        año: myAño,
+        año: myAnio,
 	    color: myColor,
 	cilindros: myCilindros
     };
