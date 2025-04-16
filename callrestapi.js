@@ -15,7 +15,7 @@ function postCars() {
         matricula: myMatricula,
         modelo: myModelo,
         marca: myMarca,
-        año: myAnio,
+        age: myAnio,
 	    color: myColor,
 	cilindros: myCilindros
     };
@@ -51,7 +51,7 @@ function getCars() {
                                 '<td>' + item.matricula + '</td>' +
                                 '<td>' + item.modelo + '</td>' +
                                 '<td>' + item.marca + '</td>' +
-                                '<td>' + item.año + '</td>' +
+                                '<td>' + item.age + '</td>' +
 				'<td>' + item.color + '</td>' +
 				'<td>' + item.cilindros + '</td>' +
 
