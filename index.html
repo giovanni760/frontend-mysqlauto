@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <p>Consumo de REST-API de cars </p>
+
+    <div>
+        <label>Matricula </label>
+        <input type="text" id="matricula">
+    </div>
+
+     <div>
+        <label>Modelo </label>
+        <input type="text" id="modelo">
+    </div>
+
+     <div>
+        <label>Marca </label>
+        <input type="text" id="marca">
+    </div>
+
+    <div>
+        <label>Año </label>
+        <input type="text" id="año">
+    </div>
+
+    <div>
+        <label>Color </label>
+        <input type="text" id="color">
+    </div>
+
+    <div>
+        <label>Cilindros </label>
+        <input type="text" id="cilindros">
+    </div>
+
+    <button onclick="postCars()"> POST car </button>
+    <button onclick="getCars()"> GET cars </button>
+
+    <div id="resultado"></div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="callrestapi.js"></script>
+</body>
+</html>
+
+
